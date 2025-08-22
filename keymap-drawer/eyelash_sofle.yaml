@@ -7,7 +7,7 @@ layers:
   - '3'
   - '4'
   - '5'
-  - $$mdi:arrow-up-bold$$
+  - '&mmv MOVE_Y(100)'
   - '6'
   - '7'
   - '8'
@@ -20,7 +20,7 @@ layers:
   - E
   - R
   - T
-  - $$mdi:arrow-down-bold$$
+  - '&mmv MOVE_Y(-100)'
   - Y
   - U
   - I
@@ -33,7 +33,7 @@ layers:
   - D
   - F
   - G
-  - $$mdi:arrow-left-bold$$
+  - '&mmv MOVE_X(-100)'
   - H
   - J
   - K
@@ -46,7 +46,7 @@ layers:
   - C
   - V
   - B
-  - $$mdi:arrow-right-bold$$
+  - '&mmv MOVE_X(100)'
   - N
   - M
   - {t: ',', s: <}
@@ -54,12 +54,12 @@ layers:
   - {t: /, s: '?'}
   - {t: ']', s: '}'}
   - $$mdi:volume-off$$
-  - \
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-option$$
   - layer1
   - {t: '$$mdi:keyboard-space$$', h: '3'}
   - $$mdi:apple-keyboard-command$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-shift$$
@@ -118,7 +118,7 @@ layers:
   - F11
   - F12
   - PgDn
-  - $$mdi:volume-off$$
+  - BRIGHTNESS MAXIMUM
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
@@ -257,6 +257,6 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
