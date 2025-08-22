@@ -42,20 +42,30 @@
     keymap {
         compatible = "zmk,keymap";
 
-        layer0 {
+        Base {
             bindings = <
-&kp ESCAPE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &mmv MOVE_Y(100)   &kp NUMBER_6   &kp NUMBER_7  &kp NUMBER_8     &kp NUMBER_9      &kp NUMBER_0       &kp EQUAL
+&bt BT_NXT  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &mmv MOVE_Y(100)   &kp NUMBER_6   &kp NUMBER_7  &kp NUMBER_8     &kp NUMBER_9      &kp NUMBER_0       &kp EQUAL
 &kp TAB     &kp Q         &kp W         &kp E         &kp R         &kp T           &mmv MOVE_Y(-100)  &kp Y          &kp U         &kp I            &kp O             &kp P              &kp MINUS
 &kp ESCAPE  &kp A         &kp S         &kp D         &kp F         &kp G           &mmv MOVE_X(-100)  &kp H          &kp J         &kp K            &kp L             &kp SEMI           &kp LEFT_BRACKET
 &kp LCTRL   &kp Z         &kp X         &kp C         &kp V         &kp B           &mmv MOVE_X(100)   &kp N          &kp M         &kp COMMA        &kp DOT           &kp FSLH           &kp RIGHT_BRACKET
-&kp C_MUTE  &none         &kp LEFT_ALT  &mo 1         &lt 3 SPACE   &kp LCMD        &mkp LCLK          &kp BACKSPACE  &kp ENTER     &kp RIGHT_SHIFT  &kp SINGLE_QUOTE  &kp RIGHT_CONTROL
+&kp C_MUTE  &none         &kp LEFT_ALT  &mo 1         &lt 2 SPACE   &kp LCMD        &mkp LCLK          &kp BACKSPACE  &kp ENTER     &kp RIGHT_SHIFT  &kp SINGLE_QUOTE  &kp RIGHT_CONTROL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOLUME_UP>;
             display-name = "LAYER0";
         };
 
-        layer_1 {
+        Symbols {
+            bindings = <
+&kp LCTRL  &none   &none   &none                 &none            &none       &none  &none     &none     &none      &none      &none      &none
+&none      &kp N1  &kp N2  &kp N3                &kp N4           &kp N5      &none  &kp N6    &kp N7    &kp N8     &kp N9     &kp N0     &none
+&none      &none   &none   &kp C_AL_TEXT_EDITOR  &kp NON_US_HASH  &kp LBKT    &none  &kp RBKT  &kp APOS  &kp MINUS  &kp EQUAL  &kp GRAVE  &none
+&none      &none   &none   &none                 &none            &none       &none  &none     &none     &none      &none      &kp BSLH   &none
+&none      &none   &none   &none                 &none            &none       &none  &none     &none     &trans     &none      &none
+            >;
+        };
+
+        Navigation {
             bindings = <
 &kp GRAVE                 &kp F1           &kp F2           &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8    &kp F9     &kp F10  &trans
 &trans                    &trans           &trans           &trans           &trans           &trans             &mmv MOVE_DOWN   &kp PG_UP        &kp END          &kp UP    &kp HOME   &trans   &trans
@@ -68,7 +78,7 @@
             sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
         };
 
-        layer_2 {
+        Functions {
             bindings = <
 &kp TILDE    &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &trans  &trans  &trans      &trans     &trans       &trans
 &trans       &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &mmv MOVE_DOWN   &trans  &trans  &trans      &trans     &trans       &trans
@@ -80,13 +90,13 @@
             sensor-bindings = <&inc_dec_kp K_SCROLL_DOWN K_SCROLL_UP>;
         };
 
-        layer_3 {
+        Gaming {
             bindings = <
-&kp LCTRL  &none   &none   &none   &none   &none       &none    &none     &none     &none      &none      &none      &none
-&none      &kp N1  &kp N2  &kp N3  &kp N4  &kp N5      &kp N6   &kp N6    &kp N7    &kp N8     &kp N9     &kp N0     &none
-&none      &none   &none   &none   &none   &kp LBKT    &kp ESC  &kp RBKT  &kp APOS  &kp MINUS  &kp EQUAL  &kp TILDE  &none
-&none      &none   &none   &none   &none   &none       &none    &none     &none     &none      &none      &kp BSLH   &none
-&none      &none   &none   &none   &none   &none       &none    &none     &none     &trans     &none      &none
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
