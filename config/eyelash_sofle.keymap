@@ -44,11 +44,11 @@
 
         layer0 {
             bindings = <
-&kp ESCAPE      &kp NUMBER_1          &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp UP_ARROW     &kp NUMBER_6   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9      &kp NUMBER_0       &kp EQUAL
-&kp TAB         &kp Q                 &kp W         &kp E         &kp R         &kp T           &kp DOWN_ARROW   &kp Y          &kp U         &kp I         &kp O             &kp P              &kp MINUS
-&kp LEFT_SHIFT  &kp A                 &kp S         &kp D         &kp F         &kp G           &kp LEFT_ARROW   &kp H          &kp J         &kp K         &kp L             &kp SEMI           &kp LEFT_BRACKET
-&kp LCTRL       &kp Z                 &kp X         &kp C         &kp V         &kp B           &kp RIGHT_ARROW  &kp N          &kp M         &kp COMMA     &kp DOT           &kp FSLH           &kp RIGHT_BRACKET
-&kp C_MUTE      &kp NON_US_BACKSLASH  &kp LEFT_ALT  &mo 1         &kp SPACE     &kp LCMD        &kp ENTER        &kp BACKSPACE  &kp ENTER     &mo 2         &kp SINGLE_QUOTE  &kp RIGHT_CONTROL
+&kp ESCAPE  &kp NUMBER_1          &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp UP_ARROW     &kp NUMBER_6   &kp NUMBER_7  &kp NUMBER_8     &kp NUMBER_9      &kp NUMBER_0       &kp EQUAL
+&kp TAB     &kp Q                 &kp W         &kp E         &kp R         &kp T           &kp DOWN_ARROW   &kp Y          &kp U         &kp I            &kp O             &kp P              &kp MINUS
+&kp ESCAPE  &kp A                 &kp S         &kp D         &kp F         &kp G           &kp LEFT_ARROW   &kp H          &kp J         &kp K            &kp L             &kp SEMI           &kp LEFT_BRACKET
+&kp LCTRL   &kp Z                 &kp X         &kp C         &kp V         &kp B           &kp RIGHT_ARROW  &kp N          &kp M         &kp COMMA        &kp DOT           &kp FSLH           &kp RIGHT_BRACKET
+&kp C_MUTE  &kp NON_US_BACKSLASH  &kp LEFT_ALT  &mo 1         &lt 3 SPACE   &kp LCMD        &kp ENTER        &kp BACKSPACE  &kp ENTER     &kp RIGHT_SHIFT  &kp SINGLE_QUOTE  &kp RIGHT_CONTROL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOLUME_UP>;
@@ -82,11 +82,11 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&kp LCTRL  &none   &none   &none   &none   &none       &none    &none     &none     &none      &none      &none      &none
+&none      &kp N1  &kp N2  &kp N3  &kp N4  &kp N5      &kp N6   &kp N6    &kp N7    &kp N8     &kp N9     &kp N0     &none
+&none      &none   &none   &none   &none   &kp LBKT    &kp ESC  &kp RBKT  &kp APOS  &kp MINUS  &kp EQUAL  &kp TILDE  &none
+&none      &none   &none   &none   &none   &none       &none    &none     &none     &none      &none      &kp BSLH   &none
+&none      &none   &none   &none   &none   &none       &none    &none     &none     &none      &none      &none
             >;
         };
     };
