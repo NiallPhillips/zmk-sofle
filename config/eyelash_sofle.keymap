@@ -58,7 +58,7 @@
         Navigation {
             bindings = <
 &rgb_ug RGB_TOG           &kp F1           &kp F2           &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8    &kp F9     &kp F10  &trans
-&trans                    &trans           &trans           &trans           &trans           &trans             &mmv MOVE_DOWN   &kp PG_UP        &kp END          &kp UP    &kp HOME   &trans   &trans
+&trans                    &trans           &trans           &trans           &trans           &trans             &mmv MOVE_DOWN   &kp PG_UP        &kp HOME         &kp UP    &kp END    &trans   &trans
 &trans                    &rgb_ug RGB_SAD  &rgb_ug RGB_HUD  &trans           &trans           &trans             &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN  &kp RIGHT  &trans   &trans
 &trans                    &rgb_ug RGB_SAI  &rgb_ug RGB_HUI  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &trans    &kp F11    &kp F12  &trans
 &kp C_BRIGHTNESS_MAXIMUM  &trans           &trans           &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans    &trans     &trans
@@ -70,11 +70,11 @@
 
         Symbols {
             bindings = <
-&trans  &trans     &trans         &trans                &trans                 &trans    &trans  &trans      &trans            &trans             &trans     &trans     &trans
-&trans  &kp N1     &kp N2         &kp N3                &kp N4                 &kp N5    &trans  &kp N6      &kp N7            &kp N8             &kp N9     &kp N0     &trans
-&trans  &kp GRAVE  &kp BACKSLASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans    &trans  &trans      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS  &kp EQUAL  &trans
-&trans  &trans     &trans         &trans                &trans                 &trans    &trans  &trans      &trans            &trans             &trans     &trans     &trans
-&trans  &trans     &trans         &trans                &trans                 &trans    &trans  &kp DELETE  &trans            &trans             &trans     &trans
+&trans  &trans     &trans         &trans                &trans                 &trans            &trans  &trans            &trans            &trans             &trans     &trans     &trans
+&trans  &kp N1     &kp N2         &kp N3                &kp N4                 &mt N5 PERCENT    &trans  &kp N6            &kp N7            &kp N8             &kp N9     &kp N0     &trans
+&trans  &kp GRAVE  &kp BACKSLASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans            &trans  &kp SINGLE_QUOTE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS  &kp EQUAL  &trans
+&trans  &trans     &trans         &trans                &trans                 &trans            &trans  &trans            &trans            &trans             &trans     &trans     &trans
+&trans  &trans     &trans         &trans                &trans                 &trans            &trans  &kp DELETE        &trans            &trans             &trans     &trans
             >;
         };
 
