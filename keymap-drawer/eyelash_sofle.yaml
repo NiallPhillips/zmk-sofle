@@ -54,7 +54,7 @@ layers:
   - {t: /, s: '?'}
   - {t: ']', s: '}'}
   - $$mdi:volume-off$$
-  - APPLICATION
+  - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
   - layer1
   - $$mdi:keyboard-space$$
@@ -64,7 +64,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:backspace-reverse-outline$$
-  - '3'
+  - '2'
   layer1:
   - RGB TOG
   - F1
@@ -194,7 +194,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   '3':
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -259,4 +259,4 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
