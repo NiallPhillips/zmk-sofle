@@ -13,7 +13,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - KP 1
+  - {t: '-', s: _}
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -26,7 +26,7 @@ layers:
   - I
   - O
   - P
-  - KP 2
+  - {t: '=', s: +}
   - $$mdi:keyboard-esc$$
   - A
   - S
@@ -39,7 +39,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - KP 3
+  - {t: '[', s: '{'}
   - $$mdi:apple-keyboard-control$$
   - Z
   - X
@@ -52,7 +52,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - KP 4
+  - {t: ']', s: '}'}
   - $$mdi:volume-off$$
   - APPLICATION
   - $$mdi:apple-keyboard-option$$
