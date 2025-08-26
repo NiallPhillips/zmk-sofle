@@ -184,8 +184,8 @@ layers:
   - $$mdi:progress-download$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Games, h: '$$mdi:gesture-tap-hold$$'}
-  - {t: LAYER0, h: '$$mdi:gesture-tap-hold$$'}
+  - {t: Games, h: toggle}
+  - {t: LAYER0, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -324,4 +324,4 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:backspace-reverse-outline$$
-  - {t: '2', type: held alternate}
+  - '2'
