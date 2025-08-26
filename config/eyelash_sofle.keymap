@@ -62,7 +62,7 @@
 &trans                    &trans           &trans           &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans             &mmv MOVE_Y(500)   &trans            &kp HOME         &kp UP           &kp END          &trans   &kp F12
 &trans                    &kp BACKSLASH    &kp TILDE        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans             &mmv MOVE_X(-500)  &kp SINGLE_QUOTE  &kp LEFT         &kp DOWN         &kp RIGHT        &trans   &kp PG_UP
 &trans                    &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &rgb_ug RGB_EFF       &rgb_ug RGB_EFR        &rgb_ug RGB_SPI    &mmv MOVE_X(500)   &rgb_ug RGB_BRI   &rgb_ug RGB_BRD  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &trans   &kp PG_DN
-&kp C_BRIGHTNESS_MAXIMUM  &trans           &trans           &trans                &trans                 &trans             &mkp LCLK          &trans            &trans           &trans           &trans           &trans
+&kp C_BRIGHTNESS_MAXIMUM  &sl 4            &trans           &trans                &trans                 &trans             &mkp LCLK          &trans            &trans           &trans           &trans           &trans
             >;
 
             display-name = "layer1";
@@ -75,7 +75,7 @@
 &trans        &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &mmv MOVE_DOWN   &trans  &trans  &kp F11     &kp F12    &kp UNDER    &kp PLUS
 &kp CAPSLOCK  &out OUT_USB  &out OUT_BLE    &trans        &trans        &trans          &mmv MOVE_LEFT   &trans  &trans  &trans      &trans     &kp LBRC     &kp RBRC
 &trans        &sys_reset    &trans          &bootloader   &trans        &trans          &mmv MOVE_RIGHT  &trans  &trans  &sys_reset  &soft_off  &bootloader  &trans
-&trans        &trans        &trans          &trans        &trans        &trans          &mkp LCLK        &trans  &trans  &trans      &trans     &trans
+&trans        &sl 4         &trans          &trans        &trans        &trans          &mkp LCLK        &trans  &trans  &trans      &trans     &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
