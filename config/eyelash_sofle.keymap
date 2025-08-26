@@ -53,7 +53,7 @@
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOLUME_UP>;
-            display-name = "LAYER0";
+            display-name = "Base";
         };
 
         Navigation {
@@ -65,7 +65,7 @@
 &kp C_BRIGHTNESS_MAXIMUM  &sl 4            &trans           &trans                &trans                 &trans             &mkp LCLK          &trans            &trans           &trans           &trans           &trans
             >;
 
-            display-name = "layer1";
+            display-name = "Nav";
             sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
         };
 
@@ -91,7 +91,7 @@
             >;
         };
 
-        layer_4 {
+        Games {
             display-name = "Games";
             bindings = <
 &kp ESCAPE      &kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &mmv MOVE_Y(-300)  &kp NUMBER_6   &kp NUMBER_7  &kp NUMBER_8    &kp NUMBER_9  &kp NUMBER_0  &kp MINUS
