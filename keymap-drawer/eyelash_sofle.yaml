@@ -80,11 +80,11 @@ layers:
   - F10
   - F11
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '`', s: '~'}
+  - '|'
+  - (
   - '{'
-  - '}'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '[', s: '{'}
   - '&mmv MOVE_Y(500)'
   - {t: '$$mdi:transfer$$', type: trans}
   - HOME
@@ -95,9 +95,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: \, s: '|'}
   - '~'
-  - (
   - )
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '}'
+  - {t: ']', s: '}'}
   - '&mmv MOVE_X(-500)'
   - {t: '''', s: '"'}
   - $$mdi:arrow-left-bold$$
