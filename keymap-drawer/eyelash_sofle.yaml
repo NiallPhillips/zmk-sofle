@@ -13,7 +13,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - {t: '[', s: '{'}
+  - {t: '-', s: _}
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -26,7 +26,7 @@ layers:
   - I
   - O
   - P
-  - {t: ']', s: '}'}
+  - {t: '=', s: +}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-shift$$'}
   - A
   - S
@@ -39,7 +39,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - {t: '=', s: +}
+  - {t: '[', s: '{'}
   - $$mdi:apple-keyboard-control$$
   - Z
   - X
@@ -52,7 +52,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: '-', s: _}
+  - {t: ']', s: '}'}
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
@@ -90,7 +90,7 @@ layers:
   - HOME
   - $$mdi:arrow-up-bold$$
   - END
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '-', s: _}
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: \, s: '|'}
@@ -103,7 +103,7 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '=', s: +}
   - PG UP
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB HUD
