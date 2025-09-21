@@ -86,7 +86,7 @@ layers:
   - '{'
   - {t: '[', s: '{'}
   - '&mmv MOVE_Y(500)'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - AltGr+3
   - HOME
   - $$mdi:arrow-up-bold$$
   - END
