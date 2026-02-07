@@ -13,7 +13,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - LOCK
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -26,8 +26,8 @@ layers:
   - I
   - O
   - P
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - PRINTSCREEN
+  - $$mdi:apple-keyboard-shift$$
   - A
   - S
   - D
@@ -86,11 +86,11 @@ layers:
   - (
   - {t: '[', s: '{'}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - AltGr+Sft+3
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - END
   - $$mdi:arrow-up-bold$$
   - HOME
-  - PRINTSCREEN
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F12
   - RGB SAI
   - '~'
@@ -196,5 +196,5 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
 combos:
-- p: [14, 28, 40]
-  k: '&soft_off'
+- p: [34, 35]
+  k: $$mdi:keyboard-esc$$
