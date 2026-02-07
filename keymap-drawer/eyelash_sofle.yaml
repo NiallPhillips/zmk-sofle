@@ -61,7 +61,7 @@ layers:
   - LEFT META
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:backspace-reverse-outline$$
   - layer2
@@ -172,7 +172,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backup-restore$$', type: bootloader}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&soft_off'
   - $$mdi:progress-download$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
