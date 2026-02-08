@@ -26,8 +26,8 @@ layers:
   - I
   - O
   - P
-  - $$mdi:apple-finder$$
-  - $$mdi:apple-keyboard-shift$$
+  - Ins
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-shift$$'}
   - A
   - S
   - D
